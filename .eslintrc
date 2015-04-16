@@ -1,0 +1,14 @@
+{
+  "parser": "babel-eslint",
+  "globals": {
+    "super": true // ugh
+  },
+  "rules": {
+    "strict": 0,
+    "quotes": "single",
+    "no-unused-vars": false // all the exports
+  },
+  "env": {
+    "node": true
+  }
+}
